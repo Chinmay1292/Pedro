@@ -43,9 +43,8 @@ body {
   }
 
   .play-button {
-    background-color: #f5dfd8; /* Set background color to white */
-    border: none; /* Remove default border */
-    border-radius: 50%; /* Make the border a perfect circle */
+    background: transparent;
+    border: none;
     cursor: pointer;
     padding: 0;
     outline: none;
