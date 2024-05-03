@@ -41,3 +41,24 @@ body {
       transform: translateY(10%);
     }
   }
+
+  .play-button {
+    background-color: #f5dfd8; /* Set background color to white */
+    border: none; /* Remove default border */
+    border-radius: 50%; /* Make the border a perfect circle */
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    position: relative;
+    top: 50px;
+  }
+
+  .play-button img {
+    width: 50px; /* Adjust the size of the icon */
+    height: auto;
+    transition: transform 0.3s ease-in-out; /* Add a transition for smooth animation */
+  }
+
+  .play-button:hover img {
+    transform: scale(1.1); /* Apply a scale effect on hover */
+  }
